@@ -110,7 +110,7 @@ if [[ $(netstat | wc -l) -gt 500 ]]; then exit 1; else exit 0; fi
 ```
 
 В логах также все имеется:
-![task 3](https://github.com/WilderWein123/redu1/blob/initial/img/pic3.jpg)
+![task 32](https://github.com/WilderWein123/redu1/blob/initial/img/pic3.jpg)
 
 Аналогично можно уменьшить условие до "вменяемых" 120-130 соединений - это будет минимальная нагрузка. Исправить exit 1 на exit 0 и, соответственно, наоборот. 
 
